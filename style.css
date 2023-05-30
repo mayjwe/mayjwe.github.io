@@ -1,0 +1,28 @@
+body {
+	margin:0;
+}
+
+.page-header {
+	  grid-template-columns: 160px 1 fr;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+
+.products-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 25px;
+	padding-bottom: 40px;
+}
+.page-footer {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
